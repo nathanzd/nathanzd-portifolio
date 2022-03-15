@@ -1,12 +1,15 @@
 
 .header_container{
+    position: fixed;
     --color-primary:#009dff;
     left: 0;
     top:0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 0.080px 10px black;
     height: 4.5rem;
+    width: 100%;
 }
 .logo{
     display: flex;
@@ -25,11 +28,16 @@
     font-family: Roboto;
     font-weight: bold;
     font-size: 1.5rem;
+    flex-direction: column;
 }
 .nome_text{
     
     margin-left: 25px;
     align-self: center;
+}
+.nome_small{
+    font-weight: normal;
+    font-size: 12px;
 }
 
 .menu{
@@ -40,15 +48,16 @@
 }
 
 .menu_btn{
-    font-weight: normal;
+    font-weight: bold;
     font-family: Roboto;
     margin: 0 1rem;
     color: black;
     text-decoration: none;
-    padding: .4rem 2rem;
-    font-size: 1.2rem;
+    padding: .4rem 1rem;
+    font-size: 1rem;
     background-color:transparent;
     transition: ease all 100ms;
+    margin-right: 25px;
     
 }
 .menu_btn:hover{
@@ -56,5 +65,5 @@
     /*border: 2px solid black;*/
 
     
-    border-bottom: 2px solid gray;
+    border-bottom: 3px solid gray;
 }

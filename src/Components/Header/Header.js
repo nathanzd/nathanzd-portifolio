@@ -12,14 +12,15 @@ const Header = () => {
                     <img src={logo} alt="logo"/>
                 </div>
                 <div className={`${styles.nome}`}>
-                    <p className={`${styles.nome_text}`}>Nathan <span style={{color:'#009dff'}}>Ferreira</span></p>
+                    <p className={`${styles.nome_text}`}>Nathan <span style={{color:'black'}}>Ferreira</span></p>
+                    <p className={`${styles.nome_small}`}>Front-End Developer</p>
                 </div>
             </div>
             <div className={`${styles.menu}`}>
-                <NavLink className={`${styles.menu_btn}`} to="/">Sobre</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">Projetos</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">Curriculo</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">Contato</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">SOBRE</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">PROJETOS</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">CURRICULO</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">CONTATO</NavLink>
             </div>
         </div>
     </header>
