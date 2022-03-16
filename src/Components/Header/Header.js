@@ -17,10 +17,10 @@ const Header = () => {
                 </div>
             </div>
             <div className={`${styles.menu}`}>
-                <NavLink className={`${styles.menu_btn}`} to="/">SOBRE</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">PROJETOS</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">CURRICULO</NavLink>
-                <NavLink className={`${styles.menu_btn}`} to="/">CONTATO</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">Sobre</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">Projetos</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">Curriculo</NavLink>
+                <NavLink className={`${styles.menu_btn}`} to="/">Contato</NavLink>
             </div>
         </div>
     </header>

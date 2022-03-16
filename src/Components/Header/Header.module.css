@@ -23,6 +23,7 @@
     width: 3rem;
     height: 3rem;
 }
+
 .nome{
     display: flex;
     text-align: center;
@@ -61,10 +62,25 @@
     margin-right: 25px;
     
 }
+
+.menu_btn::after{
+    content: '';
+    position: absolute;
+    background: rgb(0,219,252);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.menu_btn::after:hover{
+    width: 100%;
+}
+
 .menu_btn:hover{
     
     /*border: 2px solid black;*/
 
     
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid rgb(0,219,252);
 }

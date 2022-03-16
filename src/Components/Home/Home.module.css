@@ -1,3 +1,22 @@
+.animeLeft{
+    
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: animeLeft 2000ms forwards;
+}
+@keyframes animeLeft {
+    to{
+        color: black;
+        opacity: 1;
+        transform: initial;
+    }
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(0,219,252);
+}
+
 .home_container{
     margin-top: 5rem;
     font-family:'Poppins','Roboto';
@@ -19,24 +38,21 @@
     box-shadow: 0px 10px 10px black;
     border-radius: 50%;
     background-color:rgb(41,41,41) ;
+    transition: ease all 300ms;
+}
+.perfil_foto img:hover{
+    box-shadow: 0px 10px 10px rgb(0,219,252);
 }
 .sobre{
     font-size: 19px;
     margin-right: 3rem;
     width: 30rem;
+    transition: ease all 1000ms;
 }
-
-.animeLeft{
-    color:rgb(0,219,252);
-    opacity: 0;
-    transform: translateX(-20px);
-    animation: animeLeft .10s forwards;
+.sobre h1{
+    transition: ease all 300ms;
 }
-@keyframes animeLeft {
-    to{
-        color: black;
-        opacity: 1;
-        transform: initial;
-    }
-    
+.sobre h1:hover{
+    color:rgb(0,219,252) ;
+    box-shadow: 0px 10 10px black;
 }
