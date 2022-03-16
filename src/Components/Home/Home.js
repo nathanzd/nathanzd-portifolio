@@ -1,18 +1,18 @@
 import React from 'react'
 import styles from './Home.module.css'
-import foto from "../../Assets/react2.png"
 
-const Home = () => {
+
+const Home = ({row,text,text2,foto,title}) => {
   return (
-    <div className={`${styles.home_container}`}>
+    <div style={{flexDirection:row ? 'row':'row-reverse'}} className={`${styles.home_container}`}>
       <div className={`${styles.perfil_foto}`}>
         <img src={foto}/>
       </div>
-      <div className={`${styles.sobre}`}>
-          <h2>Sobre</h2>
-          <p>Afcionado por tecnologia e inovação sempre busco soluções criativas e eficientes. Com constância e persistência nenhum problema é grande demais.
+      <div className={`${styles.sobre} ${styles.animeLeft}  `}>
+          <h1 className={`${styles.animeLeft}`} >{title}</h1>
+          <p>{text}
             <br/><br/>
-            Atualmente trabalho com desenvolvimento web front-end utilizando javascript, HTML, CSS e frameworks como ReactJS.
+            {text2}
           </p>
       </div>
     </div>
