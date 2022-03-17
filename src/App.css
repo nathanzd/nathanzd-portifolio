@@ -21,3 +21,10 @@
     }
     
 }
+h1{
+    transition: ease all 300ms;
+}
+h1:hover{
+    color:rgb(0,219,252) ;
+    box-shadow: 0px 10 10px black;
+}
