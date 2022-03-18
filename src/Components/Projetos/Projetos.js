@@ -3,7 +3,7 @@ import styles from "./Projetos.module.css"
 
 const Projetos = ({img,text,title,row,project,link}) => {
   return (
-    <a href={link}><div className={`${styles.projetos_container} ${styles.animeLeft}`}>
+    <a href={link}><div id="projetos" className={`${styles.projetos_container} ${styles.animeLeft}`}>
         <h1 className={`${styles.title}`}>{title}</h1>
         <div style={{flexDirection:row ? 'row':'row-reverse'}} className={`${styles.projetos_content} ${styles.animeLeft} `}>
             <div className={`${styles.projetos_img}`}>

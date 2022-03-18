@@ -16,6 +16,7 @@ import Projetos from './Components/Projetos/Projetos';
 import projectImg from '../src/Assets/dark-mode.jpg'
 import projectImg2 from '../src/Assets/spotify.jpg'
 import projectImg3 from '../src/Assets/print.png'
+import Contato from './Components/Contato/Contato';
 
 
 export const App=()=>{
@@ -40,6 +41,7 @@ export const App=()=>{
                     <Projetos row={true} img={projectImg} text={textProjetos1} title="Projetos" project="Dashboard" link=""/>
                     <Projetos row={false} img={projectImg2} text={textProjetos2}  project="Spotify" link=""/>
                     <Projetos row={true} img={projectImg3} text={textProjetos3}  project="App de Streaming" link=""/>
+                    <Contato/>
                 </BrowserRouter>
         </React.Fragment>
         

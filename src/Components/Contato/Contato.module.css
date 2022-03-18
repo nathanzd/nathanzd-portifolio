@@ -1,0 +1,18 @@
+.container{
+    font-size: 20px;
+    font-family: "Poppins","Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+}
+.container a{
+    color: black;
+    text-decoration: underline rgb(0,219,252);
+}
+.text{
+    text-align: justify;
+}
