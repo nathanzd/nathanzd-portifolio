@@ -31,8 +31,8 @@ const Main = () => {
         <Home text={textHome1}  foto={foto} title="Sobre"/>            
         <Home row={true} text={textHome2} foto={foto2} title="Tecnologias" />
         <Home  text={textHomeGit} foto={gitfoto} title="Visite meu GitHub" link="https://github.com/nathanzd" />
-        <Projetos row={true} img={projectImg} text={textProjetos1} title="Projetos" project="Dashboard" link=""/>
-        <Projetos row={false} img={projectImg2} text={textProjetos2}  project="Spotify" link=""/>
+        <Projetos row={true} img={projectImg} text={textProjetos1} title="Projetos" project="Dashboard" link="https://nathanzd.github.io/admin-painel/"/>
+        <Projetos row={false} img={projectImg2} text={textProjetos2}  project="Spotify" link="https://nathanzd.github.io/music-app-clone/"/>
         <Projetos row={true} img={projectImg3} text={textProjetos3}  project="App de Streaming" link=""/>
         <Contato/>
     </React.Fragment>

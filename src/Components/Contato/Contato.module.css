@@ -1,8 +1,33 @@
-.container{
+.animeLeft{
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: animeLeft .3s forwards;
+}
+@keyframes animeLeft {
+    to{
+        opacity: 1;
+        transform: initial;
+    }
+    
+}
+
+.contato{
     font-size: 20px;
     font-family: "Poppins","Roboto";
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+}
+
+.container{
+    font-size: 20px;
+    font-family: "Poppins","Roboto";
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -15,4 +40,21 @@
 }
 .text{
     text-align: justify;
+}
+.icon img{
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right:15px ;
+}
+.icon img:hover{
+    box-shadow: 0px 10px 10px rgb(0,219,252);
+}
+
+
+.contactContainer{
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
 }

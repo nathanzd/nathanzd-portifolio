@@ -32,11 +32,13 @@
     font-size: 1.5rem;
     flex-direction: column;
 }
+
 .nome_text{
     
     margin-left: 25px;
     align-self: center;
 }
+
 .nome_small{
     font-weight: normal;
     font-size: 12px;

@@ -18,7 +18,7 @@ import projectImg2 from '../src/Assets/spotify.jpg'
 import projectImg3 from '../src/Assets/print.png'
 import Contato from './Components/Contato/Contato';
 import Main from './Components/Main/Main';
-import Spotify from './Components/Spotify/Spotify';
+
 
 
 export const App=()=>{
@@ -35,7 +35,7 @@ export const App=()=>{
         <React.Fragment>
                 <BrowserRouter>
                         <Routes>
-                            <Route path='/' element={<Spotify/>}/>
+                            <Route path='/' element={<Main/>}/>
                         </Routes>
                 </BrowserRouter>
         </React.Fragment>
