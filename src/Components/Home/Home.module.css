@@ -1,3 +1,4 @@
+ 
 .animeLeft{
     
     opacity: 0;
@@ -16,12 +17,15 @@ a{
     text-decoration: none;
     color:rgb(0,219,252);
 }
-
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .home_container{
     margin-top: 5rem;
     font-family:'Poppins','Roboto';
     height: 55vh;
-    width: 100vw;
+    width: 100%;
     /*background: linear-gradient(to top,rgb(0,219,252) 5%,transparent 95% );*/
     display: flex;
     flex-direction: row-reverse;
@@ -55,4 +59,57 @@ a{
 .sobre h1:hover{
     color:rgb(0,219,252) ;
     box-shadow: 0px 10 10px black;
+}
+.container{
+    display: none;
+}
+
+@media screen and (max-width:760px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-family:'Poppins','Roboto';
+        height: 55vh;
+        width: 100%;
+        /*background: linear-gradient(to top,rgb(0,219,252) 5%,transparent 95% );*/
+        
+        margin-left: 3rem;
+       
+        
+    }
+    .home_container{
+        display: none;
+        align-content: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 0;
+        margin-left:190px;
+    }
+    .home_container img{
+        vertical-align: center;
+        align-self: center;
+    }
+    .perfil_foto{
+        display: flex;
+        align-items: center;
+        height: 10rem;
+        width: 10rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .perfil_foto img{
+        
+        justify-self: center;
+        height: 10rem;
+        width: 10rem;
+    }
+    .sobre{
+        
+        
+    
+        width: 30rem;
+        transition: ease all 1000ms;
+    }
 }

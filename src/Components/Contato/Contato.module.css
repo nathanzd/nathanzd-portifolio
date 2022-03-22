@@ -54,7 +54,17 @@
 
 
 .contactContainer{
+    justify-content: center;
     align-items: center;
     display: flex;
     margin-left: 20px;
+}
+@media screen and (max-width:760px){
+    .container{
+        
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
